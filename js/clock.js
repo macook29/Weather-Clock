@@ -20,8 +20,8 @@ function updateClock()
 
 	$( 'date' ).update( date.toLocaleDateString( navigator.language, {
 		weekday: 'long',
-		day: 'numeric',
 		month: 'long',
+		day: 'numeric',
 		year: 'numeric'
 	} ));
 
